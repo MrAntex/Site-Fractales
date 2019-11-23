@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>FRACTAL/Definition/Dimension</title>
+		<link rel="stylesheet" href="Definition.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!--Barre de naviguation-->
+		<nav class="navbar navbar-expand-lg	navbar-dark sticky-top">
+			<a class="navbar-brand" href="#">FRACTAL</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="accueil.html">Accueil<span class="sr-only">(current)</span></a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link active" href="#">
+							Definition
+						</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="Application.html">
+							Application
+						</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="support.html">Support</a>
+					</li>
+					
+				</ul>
+			</div>
+		</nav>
+		
+		
+		<div class="bgimg-1 img-fluid">
+			<div class="caption2">
+				<h1 id="titre" class="elegantshadow">Definition</h1>
+			</div>
+		</div>
+		
+		
+		<div id="partie" class="row">
+			<div class="col-sm-5 text-center">
+				<a class="section2" href="Definition.html#partie">Caracteristiques</a>		
+			</div>
+			<div class="col-sm-4 text-center">
+				<a class="section2" href="Definition2.html#partie">Categories</a>
+			</div>
+			<div class="col-sm-3 text-center">
+				<a class="section2" href="Definition3.html#partie"></a>	
+			</div>
+		</div>			
+		
+		<div class="row">
+			<div class="box3 col-sm-6 text-center text-md-left">
+				<h2 style="text-decoration: underline;" class="text-uppercase font-weight-bold">Dimension</h2>	
+				<br/>
+				<h4>La dimension d'une ligne droite, d'un cercle et d'une courbe régulière est de 1.</h4>
+				<br/>
+				<p>	Une fois fixés une origine et un sens, chaque point de la courbe peut être déterminé par un nombre, 
+					qui définit la distance entre l'origine et le point. Le nombre est pris négativement s'il faut se déplacer dans le sens opposé à celui choisi au départ.</p>
+				<br/>
+				<p>	La dimension d'une figure simple dans le plan est de 2.<br/>
+					Une fois un repère défini, chaque point de la figure peut être déterminé par deux nombres.<br/>
+					La dimension d'un corps simple dans l'espace est de 3.<br/>
+					Une figure telle qu'une fractale n'est pas simple. <br/>
+					Sa dimension n'est plus aussi facile à définir et n'est plus forcément entière. <br/>
+					La dimension fractale, plus complexe, s'exprime à l'aide de la dimension de Hausdorff.<br/>
+				</p>
+				<br/>
+			
+				<p>Quand la fractale est formée de répliques d'elle-même en plus petit, sa dimension fractale peut se calculer comme suit :</p>
+				<h3 style="text-align:center;">d = ln(n)/ln(h)</h3>
+				<br/>
+				<p>où la fractale de départ est formée de n exemplaires dont la taille a été réduite d'un facteur h (pour homothétie).</p>
+			</div>
+			<div class="box3 col-sm-6 text-center text-md-left">
+				<br/>
+				<h3 style="text-decoration: underline;">Quelques exemples :</h3>
+				<br/>
+				<img class="img-fluid center" src="img_texte/flocon.jpg" width="160px">
+				<li>Un côté du flocon de Koch est formé de n = 4 exemplaires de lui-même réduit d'un facteur h = 3. Sa dimension fractale vaut :</li>
+				<h3 style="text-align:center;">d = ln(4)/ln(3) = 1,2618</h3>
+				
+				<img class="img-fluid center" src="img_texte/triangle.png" width="200px">
+				<li>Le triangle de Sierpinski est formé de n = 3 exemplaires de lui-même réduit d'un facteur h = 2. Sa dimension fractale vaut :</li>
+				<h3 style="text-align:center;">d = ln(3)/ln(2) = 1,5849</h3>
+				
+				<img class="img-fluid center" src="img_texte/tapis.gif" width="160px">	
+				<li>Le tapis de Sierpinski est formé de n = 8 exemplaires de lui-même réduit d'un facteur h = 3. Sa dimension fractale vaut :</li>
+				<h3 style="text-align:center;">d = ln(8)/ln(3) = 1,8927</h3>
+			</div>
+		</div>
+				
+		<div class="row">
+			<div class="col-sm-3 text-center">
+				<a class="section2" href="#partie"></a>	
+			</div>
+			<div class="col-sm-4 text-center">
+				<a class="section2" href="Definition2.html#partie">Categories</a>	
+			</div>
+			<div class="col-sm-5 text-center">
+				<a class="section2" href="Definition.html#partie">Caracteristique</a>
+			</div>
+		</div>	
+		
+		<div class="bgimg-2">
+			<div class="caption">
+				<span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">FIER STORM</span>
+			</div>
+		</div>
+		
+		<!-- Footer -->
+				<footer class="page-footer font-small teal pt-4">
+
+					<!-- Footer Text -->
+					<div class="haut container-fluid text-center text-md-left">
+
+      
+						<div class="row">
+
+       
+							<div class="col-md-6 mt-md-0 mt-3 ">
+
+								<img class="center espace"src="image/logoIUT.png" width="500px">
+								
+
+							</div>
+       
+
+							<hr class="clearfix w-100 d-md-none pb-3">
+
+     
+							<div class="col-md-6 mb-md-0 mb-3">
+
+          
+													
+								<h5 class="text-uppercase font-weight-bold">Contacte</h5>
+								<hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+								<p>
+									<i class="fa fa-home" style="font-size:36px"></i> IUT d'Aix-Marseille site d'Arles, Rue Raoul Follereau, Arles : </p>
+								<p>
+									<i class="material-icons" style="font-size:36px">mail_outline</i> 
+									<ul>
+										<li>corentin.moinard@etu.univ-amu.fr</li>
+										<li>christel.demaison@etu.univ-amu.fr</li>
+										<li>julien.chignard@etu.univ-amu.fr</li>
+									</ul>
+								</p>
+								<p>
+									<i class="material-icons" style="font-size:36px">phone_in_talk</i> 06 95 66 67 26</p>
+								<p>
+									
+							</div>
+      
+
+						</div>
+      
+
+					</div>
+    
+
+   
+					<div class="footer-copyright text-center py-3">© 2018 Copyright:
+						<a href="https://ent.univ-amu.fr/uPortal/f/Accueil/normal/render.uP"> IUT arles </a>
+					</div>
+  
+
+				</footer>
+	
+	</body>
+	
+	
+	
+</html>

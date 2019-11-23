@@ -1,0 +1,264 @@
+html {
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	perspective: 1px;
+	transform-style: preserve-3d;
+	height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	font-family;Quicksand;
+}
+
+header{
+	box-sizing: border-box;
+	height: 100vh;
+	padding: 30vw 0 5vw;
+	position: relative;
+	transform-style: inherit;
+	width: 100vw;
+	background-size: cover;
+	background-position: center;
+
+}
+
+header h1{
+	margin-top: -500px;
+	margin-bottom: 200px
+}
+header p{
+	margin-top: -400px;
+	color:white;
+}
+header, header:before{
+	background: 50% 50% / cover;
+
+}
+
+header::before {
+	bottom: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	background-image: url("image/hdfond.jpg");
+	filter: contrast(130%);
+	background-size: cover;
+	transform-origin: center center 0;
+	transform: translateZ(-1px) scale(2);
+	z-index: -1;
+	min-height: 100vh;
+
+}
+header-inside{
+	position:relative;
+}
+header * {
+	font-weight: normal;
+	letter-spacing: 0.2em;
+	text-align: center;
+	margin: 0;
+	padding: 1em 0;
+}
+
+nav{
+	width: 100%;
+	transition: .3s;
+	background-color:#000033;
+	z-index: 2;
+}
+nav ul li a{
+	color:white;	
+}
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+.box{
+	color:white;
+}
+.bgimg-1{
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("image/feu.gif");
+	height: 400px;
+	filter: grayscale(100%);
+	
+}
+
+.bgimg-2, .bgimg-3 {
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: contrast(200%);
+}
+
+.bgimg-2 {
+  background-image: url("image/spirale.gif");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("image/gris.gif");
+  min-height: 400px;
+  
+}
+
+
+div.col-sm-9{
+	background-color:#597bc0;
+	min-height: 300px;
+	padding: 30px;
+}
+
+.col-sm-9 p{
+	font-size: 25px;
+	text-align: left;
+	margin-left; 50px;
+}
+img.espace{
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+img.center{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-sm-3{
+	background-color:#1f2947;
+	min-height: 300px;
+}	
+.col-sm-6{
+	background-color:#597bc0;
+	height:50px;
+}
+.col-sm-4{
+	background-color:#1f2947;
+	height:50px;
+}
+.col-sm-2{
+	background-color:#000033;
+	height:50px;
+}
+
+
+.elegantshadow {
+	color: #e0dfdc;
+    letter-spacing: .1em;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212, 
+      0 22px 30px rgba(0, 0, 0, 0.9);
+  }
+
+  
+#titre {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-size: 200px;
+	text-transform: uppercase;
+	
+} 
+footer{
+	background-color:#1f2947;
+	color:white;
+}
+.footer-copyright{
+	background-color:#000033;
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  #titre{
+	  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	  font-size: 80px;
+	  
+	}
+  header h1{
+	margin-top: -100px;
+	
+	}
+	header p{
+	margin-top: -290px;
+	font-size: 11px;
+	color:white;
+	}
+	header{
+	box-sizing: border-box;
+	height: 60vh;
+	padding: 30vw 0 5vw;
+	position: relative;
+	transform-style: inherit;
+	width: 100vw;
+	background-size: cover;
+	background-position: center;
+
+	}
+}
+@media screen and (min-width: 640px) and (max-width: 1100px) {
+  #titre{
+	  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	  font-size: 120px;
+	  
+	}
+  header{
+	box-sizing: border-box;
+	height: 80vh;
+	padding: 30vw 0 5vw;
+	position: relative;
+	transform-style: inherit;
+	width: 100vw;
+	background-size: cover;
+	background-position: center;
+
+	}
+
+	header h1{
+	margin-top: -250px;
+	
+	}
+	header p{
+	margin-top: -330px;
+	color:white;
+	
+}
